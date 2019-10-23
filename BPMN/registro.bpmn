@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="Definitions_1" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="1.11.3">
+  <bpmn:collaboration id="Collaboration_1p4ddzr">
+    <bpmn:participant id="Participant_0z2vihf" name="Usuario" processRef="Process_1" />
+  </bpmn:collaboration>
+  <bpmn:process id="Process_1" isExecutable="true">
+    <bpmn:startEvent id="StartEvent_1">
+      <bpmn:outgoing>SequenceFlow_1vpjcv4</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_1vpjcv4" sourceRef="StartEvent_1" targetRef="Task_0yly8lx" />
+    <bpmn:sequenceFlow id="SequenceFlow_0ew2gss" sourceRef="Task_0yly8lx" targetRef="IntermediateThrowEvent_1ht761v" />
+    <bpmn:task id="Task_0yly8lx" name="Registrarse en el sistema">
+      <bpmn:incoming>SequenceFlow_1vpjcv4</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0ew2gss</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:intermediateThrowEvent id="IntermediateThrowEvent_1ht761v">
+      <bpmn:incoming>SequenceFlow_0ew2gss</bpmn:incoming>
+    </bpmn:intermediateThrowEvent>
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_1p4ddzr">
+      <bpmndi:BPMNShape id="Participant_0z2vihf_di" bpmnElement="Participant_0z2vihf">
+        <dc:Bounds x="123" y="82" width="441" height="241" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="198" y="186" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="171" y="222" width="90" height="20" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_0yly8lx_di" bpmnElement="Task_0yly8lx">
+        <dc:Bounds x="274.355819125278" y="164" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1vpjcv4_di" bpmnElement="SequenceFlow_1vpjcv4">
+        <di:waypoint xsi:type="dc:Point" x="234" y="204" />
+        <di:waypoint xsi:type="dc:Point" x="274" y="204" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="254" y="183" width="0" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0ew2gss_di" bpmnElement="SequenceFlow_0ew2gss">
+        <di:waypoint xsi:type="dc:Point" x="374" y="204" />
+        <di:waypoint xsi:type="dc:Point" x="466" y="204" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="375" y="183" width="90" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="IntermediateThrowEvent_1ht761v_di" bpmnElement="IntermediateThrowEvent_1ht761v">
+        <dc:Bounds x="466" y="186" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="439" y="226" width="90" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>
