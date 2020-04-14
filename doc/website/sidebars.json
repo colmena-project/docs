@@ -1,0 +1,21 @@
+{
+  "docs": {
+    "Lean UX": ["about_leanux", "leanux1", "leanux2", "leanux3"],
+    "Procesos (Análisis)": ["about_process",  "proceso1", "proceso2", "proceso3", "proceso4", "proceso5", "pmv_analisis"],
+    "Interface de Usuario": ["about_colmena",
+    	                     "ui_app_map",
+    	                     "ui_splash",
+    	                     "ui_login",
+    	                     "ui_home_feed",
+    	                     "ui_perfil",
+    	                     "ui_menu",
+    	                     "ui_registrar_residuo",
+    	                     "ui_transferir_residuo",
+    	                 	 "ui_transportar_cr",
+    	                 	 "ui_gestionar_residuo"]
+
+  },
+  "docs-other": {
+    "First Category": ["doc4", "doc5"]
+  }
+}
