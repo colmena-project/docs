@@ -4,6 +4,8 @@ title: Transportar al Centro de Reciclaje
 sidebar_label: Transportar a CR
 ---
 
+Una vez que se registró residuos y/o que se le fue transferidos residuos de otros usuarios, se deben transladar los mismo al centro de reciclado más cercano en donde se validarán los mismos, procesarán y se retribuirá la labor de haber registrado y trasladados dichos residuos a ese punto.
+
 ## Paso 1: Seleccionar contenedores
 ![](assets/ui/transportar_cr/CR0.png)
 

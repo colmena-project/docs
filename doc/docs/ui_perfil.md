@@ -6,6 +6,9 @@ sidebar_label: Perfil
 ## Perfil de otro usuario
 ![](assets/ui/perfil/perfil_de_otro.png)
 
+## Menu perfil propio
+![](assets/ui/perfil/perfil_propio_menu.png)
+
 ## Perfil propio
 ![](assets/ui/perfil/perfil_propio_final.png)
 
@@ -15,6 +18,4 @@ sidebar_label: Perfil
 ## Transacciones Pendientes
 ![](assets/ui/perfil/pendientes.png)
 
-## Menu perfil propio
-![](assets/ui/perfil/perfil_propio_menu.png)
 

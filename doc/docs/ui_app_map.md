@@ -8,11 +8,11 @@ sidebar_label: Application Map
 
 ## Action 0
 
-[![](assets/pmv/action0.png)](assets/ui/menu/accion0.png)
+[![](assets/pmv/action0.png)](ui_menu/#action-0)
 
 ## Action 1
 
-[![](assets/pmv/action1.png)](assets/ui/menu/accion1.png)
+[![](assets/pmv/action1.png)](ui_menu/#action-1)
 
 ## Registrar Residuos
 
